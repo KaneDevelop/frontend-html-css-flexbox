@@ -1,1 +1,60 @@
 /*Schrijf hier jouw css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f2f3d9;
+    font-family: Avenir, Arial, sans-serif;
+    color: #030027;
+    text-align: center;
+}
+
+.brand{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: #030027;
+    color: #FFFFFF;
+    display: flex;
+    padding: 30px 40px;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 400px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    list-style: none;
+}
+
+.about-us-banner{
+    padding: 40px;
+}
+
+.article-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.article{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-basis: 280px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    background-color: #c16e70;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 20px;
+    height: 350px;
+}
